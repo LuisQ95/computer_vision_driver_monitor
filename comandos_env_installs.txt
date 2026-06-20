@@ -1,0 +1,12 @@
+conda create --name computer_vision_sleep_py python=3.11 -y
+conda activate computer_vision_sleep_py
+
+# Instalar librerias
+pip install -r requirements.txt
+
+# Si es necesario desinstalar el env
+conda deactivate
+conda remove -n computer_vision_sleep_py --all -y
+
+# Para eliminar cache
+pip cache purge
