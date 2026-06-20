@@ -14,13 +14,8 @@ pip cache purge
 # Si quieres subirlo a tu github
 
 git init
-
 git add .
-
 git commit -m "Initial commit"
-
 git branch -M main
-
 git remote add origin <YOUR_GITHUB_REPOSITORY_URL> (Por ejm: https://github.com/LuisQ95/computer_vision_driver_monitor/)
-
 git push -u origin main
