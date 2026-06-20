@@ -3,6 +3,8 @@ conda activate computer_vision_sleep_py
 
 # Instalar librerias
 pip install -r requirements.txt
+# Instalar librerias forzando que sean las versiones que se necesita
+pip install --ignore-installed --no-cache-dir -r requirements.txt
 
 # Si es necesario desinstalar el env
 conda deactivate
